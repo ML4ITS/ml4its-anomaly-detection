@@ -1,0 +1,2 @@
+- File downloaded from https://www.eia.gov/dnav/ng/hist/rngwhhdW.htm
+- Inspiration from https://medium.com/swlh/time-series-anomaly-detection-with-lstm-autoencoders-7bac1305e713
