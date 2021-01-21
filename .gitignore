@@ -1,3 +1,9 @@
 anomaly-detection/tmp_*.ipynb
 anomaly-detection/utils/data/henryhub_gas_spotprice/dataset/Henry_Hub_Natural_Gas_Spot_Price.*
 anomaly-detection/utils/data/householdpower/dataset/*.*
+anomaly-detection/.ipynb_checkpoints/
+anomaly-detection/models/__pycache__/
+anomaly-detection/utils/__pycache__/
+anomaly-detection/utils/data/.ipynb_checkpoints/
+anomaly-detection/utils/data/__pycache__/
+anomaly-detection/utils/data/henryhub_gas_spotprice/__pycache__/*

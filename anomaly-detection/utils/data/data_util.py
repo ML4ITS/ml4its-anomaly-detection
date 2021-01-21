@@ -10,7 +10,8 @@ def normalize(dataset):
     return dataset;
 
 def vis_behaviour(dataset, column_name):
-    pyplot.figure(figsize=(30,12))
+    fig,ax = pyplot.subplots(figsize=(30,12))
+    #fig, ax = pyplot.figure(figsize=(30,12))
     # Generate Histogram
     ax = pyplot.subplot(2, 2, 1)
     ax.hist(dataset[column_name])
@@ -22,6 +23,7 @@ def vis_behaviour(dataset, column_name):
     pyplot.title("box_plot", y=0.05,x=0.9, loc='right')
 
     pyplot.show()
+    return fig, ax
 
 def split(dataset, column_name, scaler, test_size=0.05):
     train, test = train_test_split(dataset, test_size=test_size, random_state=42, shuffle=False);
